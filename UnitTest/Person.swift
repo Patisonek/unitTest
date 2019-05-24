@@ -19,7 +19,7 @@ class Person {
     }
     
     
-    func validFirstname() -> Bool {
+    func validFirstName() -> Bool {
         return firstname.count > 3
     }
     

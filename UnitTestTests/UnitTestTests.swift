@@ -11,6 +11,22 @@ import XCTest
 
 class UnitTestTests: XCTestCase {
 
+    func testValidFirsName() {
+        
+        let person = Person(firstname: "Adam", lastname: "Ford")
+        XCTAssertTrue(person.validFirstName())
+        
+    }
+    
+    func testValidLastName() {
+        
+        let person = Person(firstname: "Adam", lastname: "OK")
+        XCTAssertTrue(person.validLastName())
+        
+    }
+    
+    
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
