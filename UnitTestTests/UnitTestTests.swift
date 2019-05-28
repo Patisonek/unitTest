@@ -20,7 +20,7 @@ class UnitTestTests: XCTestCase {
     
     func testValidLastName() {
         
-        let person = Person(firstname: "Adam", lastname: "OK")
+        let person = Person(firstname: "Adam", lastname: "Mongo")
         XCTAssertTrue(person.validLastName())
         
     }

@@ -13,9 +13,11 @@ class Person {
     let firstname: String
     let lastname: String
     
+    
     init(firstname:String, lastname:String) {
         self.firstname = firstname
         self.lastname = lastname
+        
     }
     
     
@@ -26,5 +28,6 @@ class Person {
     func validLastName() -> Bool {
         return lastname.count > 3
     }
+   
     
 }
